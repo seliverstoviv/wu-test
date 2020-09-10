@@ -1,0 +1,46 @@
+.table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  &__header {
+    tr th {
+      vertical-align: bottom;
+      border-bottom: 2px solid $border-color;
+    }
+    tr th:hover .sort-icon {
+      opacity: .5;
+    }
+  }
+  &__row {
+    td, th {
+      padding: .75rem;
+      vertical-align: top;
+      border-top: 1px solid $border-color;
+    }
+  }
+  &__actions {
+    padding: .75rem 0;
+    border-top: 1px solid $border-color;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text-search {
+  }
+  &__pagination {
+    display: flex;
+    align-items: center;
+  }
+}
+.sort-icon {
+  opacity: 0;
+}
+.sort-icon-vis {
+  opacity: 1;
+}
+.header-cell {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

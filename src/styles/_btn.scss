@@ -1,0 +1,49 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .37rem .75rem;
+  font-size: .9rem;
+  outline: none;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,
+              background-color .15s ease-in-out;
+  &__primary {
+    background-color: $primary;
+    color: #fff;
+    &:active {
+      background-color: $primary-darken-3;
+    }
+    &:hover {
+      background-color: $primary-darken;
+    }
+  }
+  &__close {
+    background-color: transparent;
+    padding: 0;
+    color: $secondary;
+    width: 36px;
+    height: 36px;
+    span {
+      font-size: 24px;
+    }
+  }
+  &__icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    &:active {
+      background-color: $blue-grey-lighten-2;
+    }
+    &:hover {
+      background-color: $blue-grey-lighten-3;
+    }
+  }
+}

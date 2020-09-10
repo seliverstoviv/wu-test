@@ -1,0 +1,51 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  background: #fff;
+  border-radius: 4px;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
+  &__title {
+    margin-bottom: 0;
+  }
+  &__body {
+    margin: 0 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid $border-color;
+  }
+}
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 98;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 0.2s;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translateY(-50%), translateX(100vw);
+}

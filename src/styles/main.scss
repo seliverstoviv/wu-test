@@ -1,0 +1,53 @@
+@import "./_variables.scss";
+@import "./_colors.scss";
+@import "./_table.scss";
+@import "./_btn.scss";
+@import "./_modal.scss";
+
+body{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1020px;
+  margin: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+h4 {
+  font-family: $heading-font-family;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: normal;
+}
+h5 {
+  font-family: $heading-font-family;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: normal;
+}
+input[type="text"] {
+  outline: none;
+  border: 1px solid $blue-grey;
+  border-radius: $border-radius-min;
+  padding: 4px;
+}
+.welcome-block {
+  text-align: center;
+  margin: 16px 0;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.mt-1 {
+  margin-top: 10px;
+}
