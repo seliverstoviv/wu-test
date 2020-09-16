@@ -1,3 +1,3 @@
-! [Screen] (wu-test.gif)
+! [screen] (wu-test.gif)
 # wu-tes
 
