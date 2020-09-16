@@ -1,4 +1,4 @@
-[! [] (wu-test.gif)]
+[! [Смотрите демо] (./wu-test.gif)]
 # wu-test
 
 ## Project setup
