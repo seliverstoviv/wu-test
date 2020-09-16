@@ -1,4 +1,4 @@
-[! [Смотрите демо] (https://github.com/seliverstoviv/wu-test/blob/master/wu-test.gif)]
+! [Смотрите демо] (https://github.com/seliverstoviv/wu-test/blob/master/wu-test.gif)
 # wu-test
 
 ## Project setup
