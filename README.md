@@ -1,3 +1,4 @@
+! [] (wu-test.gif)
 # wu-test
 
 ## Project setup
