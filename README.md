@@ -1,4 +1,4 @@
-! [] (wu-test.gif)
+! [Demo CountPages alpha] (wu-test.gif)
 # wu-test
 
 ## Project setup
